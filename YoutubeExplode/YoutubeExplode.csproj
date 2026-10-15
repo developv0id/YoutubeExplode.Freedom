@@ -1,5 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageId>YoutubeExplode.Freedom</PackageId>
+    <AssemblyName>YoutubeExplode</AssemblyName>
+    <RootNamespace>YoutubeExplode</RootNamespace>
     <TargetFrameworks>netstandard2.0;net6.0;net7.0;net10.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
     <IsTrimmable
@@ -13,8 +16,13 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <Authors>Tyrrrz, developv0id</Authors>
     <PackageIcon>favicon.png</PackageIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>Independent, community-maintained fork of YoutubeExplode, built from publicly available source code without the regional restriction found in the official binary distribution.</Description>
+    <PackageProjectUrl>https://github.com/developv0id/YoutubeExplode.Freedom</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/developv0id/YoutubeExplode.Freedom</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/developv0id/YoutubeExplode.Freedom/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,7 +33,6 @@
     <PackageReference Include="AngleSharp" Internalize="true" PrivateAssets="all" />
     <PackageReference Include="Binternal" PrivateAssets="all" />
     <PackageReference Include="CSharpier.MsBuild" PrivateAssets="all" />
-    <PackageReference Include="Deorcify" Internalize="true" PrivateAssets="all" />
     <PackageReference Include="JsonExtensions" Internalize="true" PrivateAssets="all" />
     <PackageReference Include="Lazy.Fody" PrivateAssets="all" />
     <PackageReference

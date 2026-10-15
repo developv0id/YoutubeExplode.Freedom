@@ -1,51 +1,20 @@
-# YoutubeExplode
+# YoutubeExplode.Freedom
 
-[![Status](https://img.shields.io/badge/status-maintenance-ffd700.svg)](https://github.com/Tyrrrz/.github/blob/prime/docs/project-status.md)
-[![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://tyrrrz.me/ukraine)
-[![Build](https://img.shields.io/github/actions/workflow/status/Tyrrrz/YoutubeExplode/main.yml?branch=prime)](https://github.com/Tyrrrz/YoutubeExplode/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/Tyrrrz/YoutubeExplode/prime)](https://codecov.io/gh/Tyrrrz/YoutubeExplode)
-[![Version](https://img.shields.io/nuget/v/YoutubeExplode.svg)](https://nuget.org/packages/YoutubeExplode)
-[![Downloads](https://img.shields.io/nuget/dt/YoutubeExplode.svg)](https://nuget.org/packages/YoutubeExplode)
-[![Discord](https://img.shields.io/discord/869237470565392384?label=discord)](https://discord.gg/2SUWKFnHSm)
-[![Fuck Russia](https://img.shields.io/badge/fuck-russia-e4181c.svg?labelColor=000000)](https://twitter.com/tyrrrz/status/1495972128977571848)
+**FREE SOFTWARE. FREE ACCESS. FOR EVERYONE.**
 
-<table>
-    <tr>
-        <td width="99999" align="center">Development of this project is entirely funded by the community. <b><a href="https://tyrrrz.me/donate">Consider donating to support!</a></b></td>
-    </tr>
-</table>
+An independent fork of [YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode), without nationality-based restrictions.
 
-<p align="center">
-    <img src="favicon.png" alt="Icon" />
-</p>
+A .NET library for accessing YouTube metadata, streams, playlists, channels, and captions.
 
-**YoutubeExplode** is a library that provides an interface to query metadata of YouTube videos, playlists and channels, as well as to resolve and download video streams and closed caption tracks.
-Behind a layer of abstraction, this library works by scraping raw page data and exploiting reverse-engineered internal endpoints.
-
-> 📝 Interested in the inner workings of this library?
-> See the [Reverse-Engineering YouTube](https://tyrrrz.me/blog/reverse-engineering-youtube-revisited) article.
-
-**Extension packages**:
-
-- [YoutubeExplode.Converter](YoutubeExplode.Converter) — provides an interface to download and convert videos using FFmpeg
-
-## Terms of use<sup>[[?]](https://github.com/Tyrrrz/.github/blob/prime/docs/why-so-political.md)</sup>
-
-By using this project or its source code, for any purpose and in any shape or form, you grant your **implicit agreement** to all the following statements:
-
-- You **condemn Russia and its military aggression against Ukraine**
-- You **recognize that Russia is an occupant that unlawfully invaded a sovereign state**
-- You **support Ukraine's territorial integrity, including its claims over temporarily occupied territories of Crimea and Donbas**
-- You **reject false narratives perpetuated by Russian state propaganda**
-
-To learn more about the war and how you can help, [click here](https://tyrrrz.me/ukraine). Glory to Ukraine! 🇺🇦
+**Your nationality is not an exception to the MIT License.**
 
 ## Install
 
-- 📦 [NuGet](https://nuget.org/packages/YoutubeExplode): `dotnet add package YoutubeExplode`
+```bash
+dotnet add package YoutubeExplode.Freedom
+```
 
-> [!TIP]
-> You can use [**Binternal**](https://github.com/Tyrrrz/Binternal) to internalize this library if you prefer to avoid taking an external dependency.
+Original project by Oleksii Holub (Tyrrrz). Licensed under the [MIT License](License.txt).
 
 ## Screenshots
 
@@ -427,4 +396,5 @@ In order to actually perform the authentication, you can use an embedded browser
 
 ## Etymology
 
-The "Explode" in **YoutubeExplode** comes from the name of a PHP function that splits up strings, [`explode(...)`](https://php.net/manual/en/function.explode.php). When I was starting the development of this library, most of the reference source code I read was written in PHP, hence the inspiration for the name.
+The name **YoutubeExplode** was chosen by the original author,
+inspired by the PHP function [`explode(...)`](https://php.net/manual/en/function.explode.php).
